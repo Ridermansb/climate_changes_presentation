@@ -27,12 +27,9 @@ routes.push({
   name: 'Home',
   component: Home
 })
-console.log(routes)
 
 var router = new Router({
   routes
-  // hashbang: true
-  // mode: 'history'
 })
 
 new Vue({
